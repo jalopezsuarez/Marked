@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Marked</title>
+<meta name="description" content="Marked privacy policy. Marked runs entirely on your device — no servers, no accounts, no telemetry, no tracking." />
+<meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#15110d" media="(prefers-color-scheme: dark)" />
+
+<meta property="og:title" content="Privacy Policy — Marked" />
+<meta property="og:description" content="Marked runs entirely on your device — no servers, no accounts, no telemetry, no tracking." />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="assets/icon.png" />
+
+<link rel="icon" type="image/png" href="assets/icon.png" />
+<link rel="apple-touch-icon" href="assets/icon.png" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+    .legal {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 56px 0 24px;
+    }
+    .legal h2 { margin-top: 36px; }
+    .legal h2:first-of-type { margin-top: 24px; }
+    .legal .updated {
+        font-family: var(--sans);
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--ink-faint);
+        margin: 0 0 24px;
+    }
+    .legal ul { padding-left: 22px; }
+    .legal li { margin: 6px 0; }
+    .legal code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        background: var(--surface);
+        border: 1px solid var(--rule);
+        padding: 1px 6px;
+        border-radius: 6px;
+        font-size: 0.92em;
+    }
+</style>
+</head>
+<body>
+
+<header class="site">
+    <div class="wrap site-inner">
+        <a class="brand" href="index.html">
+            <img src="assets/icon.png" alt="Marked app icon" />
+            <span>Marked</span>
+        </a>
+        <nav class="site-nav">
+            <a href="index.html#features">Features</a>
+            <a href="index.html#themes">Themes</a>
+            <a href="index.html#privacy">Privacy</a>
+            <a href="https://github.com/jalopezsuarez/Marked">GitHub</a>
+        </nav>
+    </div>
+</header>
+
+<main class="wrap legal">
+    <div class="kicker">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 13, 2026</p>
+
+    <p>Marked is a Markdown reader and editor that runs entirely on your device. We operate no servers and we do not transmit any of your information to any external service.</p>
+
+    <h2>Data the app processes</h2>
+    <ul>
+        <li><strong><code>.md</code>/<code>.markdown</code> files</strong> that you explicitly open from Files, iCloud Drive or another app. Marked stores a <em>bookmark</em> to the file (a secure system reference) so it can reopen it in later sessions. The file content is never copied to a server.</li>
+        <li><strong>Reading preferences</strong> (theme, font, margins, line spacing, etc.) and <strong>reading progress</strong> (percent read per document). They are stored locally on your device via <code>UserDefaults</code> and SwiftData.</li>
+    </ul>
+
+    <h2>Data we do NOT collect</h2>
+    <ul>
+        <li>Advertising identifiers.</li>
+        <li>Usage data, telemetry, analytics or crash reports.</li>
+        <li>Location, contacts, photos, health, etc.</li>
+        <li>Accounts, email addresses or any personal data.</li>
+    </ul>
+
+    <h2>Sharing with third parties</h2>
+    <p>We do not share data with third parties. The app makes no network connections.</p>
+
+    <h2>Storage and iCloud</h2>
+    <p>Files you open stay where you saved them (locally or in iCloud Drive). Marked <strong>does not copy</strong> your documents anywhere. Bookmarks and preferences live in the app's sandbox container and are removed when you uninstall the app.</p>
+
+    <h2>Children</h2>
+    <p>The app is not specifically directed at minors and does not collect any data, so by design it complies with COPPA and equivalent regulations.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy is updated, a new version will be published in this same document, with the date at the top.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:jalopezsuarez@gmail.com">jalopezsuarez@gmail.com</a></p>
+</main>
+
+<footer class="site">
+    <div class="wrap row">
+        <div>© 2026 Vemovi · Made by <a href="https://github.com/jalopezsuarez">Jose Antonio Lopez</a></div>
+        <div>
+            <a href="index.html">Home</a>
+            &nbsp;·&nbsp;
+            <a href="https://github.com/jalopezsuarez/Marked">Source</a>
+            &nbsp;·&nbsp;
+            <a href="https://github.com/jalopezsuarez/Marked/blob/main/LICENSE">MIT License</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

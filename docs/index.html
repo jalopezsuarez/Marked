@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Marked — A reading-first Markdown app for iOS</title>
+<meta name="description" content="Marked is a SwiftUI Markdown reader and editor for iOS. Reading-first typography, three themes, syntax highlighting and full privacy. Open any .md file like a book." />
+<meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#15110d" media="(prefers-color-scheme: dark)" />
+
+<meta property="og:title" content="Marked — A reading-first Markdown app for iOS" />
+<meta property="og:description" content="Open any .md file with the calm of a book. Reading themes, curated typography, syntax highlighting and full privacy." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/icon.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" type="image/png" href="assets/icon.png" />
+<link rel="apple-touch-icon" href="assets/icon.png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site">
+    <div class="wrap site-inner">
+        <a class="brand" href="#top">
+            <img src="assets/icon.png" alt="Marked app icon" />
+            <span>Marked</span>
+        </a>
+        <nav class="site-nav">
+            <a href="#features">Features</a>
+            <a href="#themes">Themes</a>
+            <a href="#privacy">Privacy</a>
+            <a href="https://github.com/jalopezsuarez/Marked">GitHub</a>
+        </nav>
+    </div>
+</header>
+
+<a id="top"></a>
+<section class="hero">
+    <div class="wrap">
+        <img class="icon" src="assets/icon.png" alt="Marked" />
+        <h1>Read Markdown like a book.</h1>
+        <p class="lede">Marked is a reading-first Markdown app for iOS. Open any <code>.md</code> file from Files or iCloud Drive and read it with classic typography, justified text and three book-style themes — with a built-in editor for quick changes.</p>
+        <div class="badges">
+            <span>iOS 26+</span>
+            <span>SwiftUI</span>
+            <span>Offline-first</span>
+            <span>No tracking</span>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="wrap">
+        <div class="kicker">Features</div>
+        <h2>Designed to be read, not just rendered.</h2>
+        <p class="intro">Every detail — typography, spacing, themes, navigation — is tuned for long-form reading. The editor stays out of the way until you need it.</p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="glyph">¶</span>
+                <h3>Book-like typography</h3>
+                <p>Nine curated typefaces (New York, Georgia, Palatino, Iowan Old Style, Charter and more), justified text with automatic hyphenation, and adjustable size, line spacing and margins.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">☀︎</span>
+                <h3>Three reading themes</h3>
+                <p>Light, Sepia and Dark — chosen for comfortable reading at any time of day, not just to flip colours.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">‹›</span>
+                <h3>Syntax highlighting</h3>
+                <p>Code blocks are highlighted with automatic language detection. The editor colours Markdown markup live, without leaving plain text behind.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">≡</span>
+                <h3>Table of contents &amp; search</h3>
+                <p>Auto-generated TOC from your headings. In-document search — per section in reader mode, per line in the editor — to jump straight where you need.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">✎</span>
+                <h3>Built-in editor</h3>
+                <p>Plain-text editing that saves back to the original file. New documents open straight into the editor. Debounced highlighting keeps large files responsive.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">⏱</span>
+                <h3>Fast and smooth</h3>
+                <p>Documents open asynchronously. Theme and font changes reuse the parsed document instead of rebuilding it, so the UI never blocks.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">❝</span>
+                <h3>Styled blockquotes &amp; tables</h3>
+                <p>Quotes with accent bar, soft tint and a decorative glyph. Wrap-first tables fit your screen and only scroll horizontally as a last resort.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">⌖</span>
+                <h3>Recents with progress</h3>
+                <p>Files are remembered with security-scoped bookmarks. Reading position is saved per document, so you continue exactly where you left off.</p>
+            </div>
+            <div class="feature">
+                <span class="glyph">⌘</span>
+                <h3>Works with your files</h3>
+                <p>Opens <code>.md</code>, <code>.markdown</code>, <code>.mdown</code> and <code>.mkd</code> from Files, iCloud Drive and "Open with…". Create new documents from inside the app.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="themes">
+    <div class="wrap">
+        <div class="kicker">Reading themes</div>
+        <h2>The same text, three moods.</h2>
+        <p class="intro">Pick the theme that matches the light around you. Each one is paired with a serif typeface, generous margins and justified text — so the page feels like a page, not a screen.</p>
+
+        <div class="themes">
+            <article class="theme light">
+                <span class="label">Light</span>
+                <h4>On Markdown</h4>
+                <p>Plain text remains the most durable format we have. Markdown adds just enough structure to read it like a book, without ever locking you into a tool.</p>
+                <blockquote>“The text is the truth; everything else is a view.”</blockquote>
+            </article>
+            <article class="theme sepia">
+                <span class="label">Sepia</span>
+                <h4>On Markdown</h4>
+                <p>Plain text remains the most durable format we have. Markdown adds just enough structure to read it like a book, without ever locking you into a tool.</p>
+                <blockquote>“The text is the truth; everything else is a view.”</blockquote>
+            </article>
+            <article class="theme dark">
+                <span class="label">Dark</span>
+                <h4>On Markdown</h4>
+                <p>Plain text remains the most durable format we have. Markdown adds just enough structure to read it like a book, without ever locking you into a tool.</p>
+                <blockquote>“The text is the truth; everything else is a view.”</blockquote>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="privacy" class="privacy">
+    <div class="wrap row">
+        <div>
+            <div class="kicker">Privacy</div>
+            <h2>Your files. Your device. That's it.</h2>
+            <p class="intro">Marked has no servers, no accounts and no analytics. It reads files you open and remembers where you left off — and that is all.</p>
+            <p><a href="privacy.html"><strong>Read the full privacy policy →</strong></a></p>
+        </div>
+        <ul>
+            <li>Runs entirely on your device.</li>
+            <li>No network connections.</li>
+            <li>No accounts, no telemetry, no advertising, no tracking.</li>
+            <li>Your files stay where you keep them — Marked only opens them.</li>
+        </ul>
+    </div>
+</section>
+
+<footer class="site">
+    <div class="wrap row">
+        <div>© 2026 Vemovi · Made by <a href="https://github.com/jalopezsuarez">Jose Antonio Lopez</a></div>
+        <div>
+            <a href="https://github.com/jalopezsuarez/Marked">Source</a>
+            &nbsp;·&nbsp;
+            <a href="privacy.html">Privacy policy</a>
+            &nbsp;·&nbsp;
+            <a href="https://github.com/jalopezsuarez/Marked/blob/main/LICENSE">MIT License</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
