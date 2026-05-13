@@ -139,8 +139,58 @@ nav.site-nav a:hover { color: var(--ink); }
     line-height: 1.55;
 }
 
+.hero .cta {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-store-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: var(--sans);
+    line-height: 1;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.app-store-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.app-store-badge__logo {
+    width: 22px;
+    height: 28px;
+    flex: none;
+}
+
+.app-store-badge__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app-store-badge__sup {
+    font-size: 10px;
+    letter-spacing: 0.2px;
+}
+
+.app-store-badge__name {
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-top: 3px;
+}
+
 .hero .badges {
-    margin-top: 36px;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
     gap: 10px;
