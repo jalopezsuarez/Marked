@@ -2,13 +2,14 @@
 
 A SwiftUI markdown reader and editor for iOS, designed as a reading-first app — think Apple Books for `.md` files: careful typography, reading themes, per-document progress and a built-in plain-text editor for quick edits.
 
-Marketing site: [jalopezsuarez.github.io/Marked](https://jalopezsuarez.github.io/Marked/) (served from the [`docs/`](docs/) folder via GitHub Pages).
+- **App Store**: [apps.apple.com/app/id6769123480](https://apps.apple.com/app/id6769123480) *(currently pending review — link goes live once approved)*
+- **Website**: [jalopezsuarez.github.io/Marked](https://jalopezsuarez.github.io/Marked/) (served from the [`docs/`](docs/) folder via GitHub Pages).
 
 ## Features
 
 - **Reader mode** with native rendering (headings, lists, tables, code blocks, quotes, links…).
 - **Editor mode** with plain-text editing and in-place saving to the original file. New documents open straight into the editor.
-- **Syntax highlighting** for fenced code blocks (auto-detected language) and live markdown markup colouring in the editor, powered by [HighlighterSwift](https://github.com/smittytone/HighlighterSwift) (highlight.js).
+- **Syntax highlighting** for fenced code blocks (auto-detected language) and live markdown markup coloring in the editor, powered by [HighlighterSwift](https://github.com/smittytone/HighlighterSwift) (highlight.js).
 - **Styled blockquotes** with left accent bar, faint background tint and a decorative quote glyph.
 - **Wrap-first tables** that fit cell text to the available width, falling back to horizontal scroll only when even wrapping cannot make the table fit.
 - **Reading themes**: light, sepia and dark, with theme-aware backgrounds for fenced code blocks, tables and blockquotes so syntax highlighting stays legible in every mode. The theme picker is reachable from both the reader and editor settings sheets.
@@ -26,17 +27,20 @@ Marketing site: [jalopezsuarez.github.io/Marked](https://jalopezsuarez.github.io
 Marked/
 ├── Marked.xcodeproj
 ├── Info.plist
-├── Marked/                     App source
-│   ├── MarkedApp.swift         SwiftUI entry point + ModelContainer
-│   ├── ContentView.swift       Recents list
-│   ├── DocumentView.swift      Reader/editor with TOC and search
-│   ├── MarkdownDocument.swift  FileDocument for creating/exporting .md
-│   ├── MarkdownRenderer.swift  Parser to renderable sections
-│   ├── MarkdownTextView.swift  UIScrollView-based renderer (uses HighlighterSwift for code blocks and the live editor)
-│   ├── MarkdownStyles.swift    Typographic styles
-│   ├── ReaderSettings.swift    Theme, font, margins (UserDefaults)
-│   ├── RecentFile.swift        SwiftData model + bookmark
-│   └── SettingsView.swift      Settings sheet (reader / editor)
+├── icon.png                       1024×1024 app icon (RGB, no alpha)
+├── Marked/                        App source
+│   ├── Assets.xcassets/           App icon + accent color
+│   ├── PrivacyInfo.xcprivacy      Privacy manifest (App Store requirement)
+│   ├── MarkedApp.swift            SwiftUI entry point + ModelContainer
+│   ├── ContentView.swift          Recents list
+│   ├── DocumentView.swift         Reader/editor with TOC and search
+│   ├── MarkdownDocument.swift     FileDocument for creating/exporting .md
+│   ├── MarkdownRenderer.swift     Parser to renderable sections
+│   ├── MarkdownTextView.swift     UIScrollView-based renderer (uses HighlighterSwift for code blocks and the live editor)
+│   ├── MarkdownStyles.swift       Typographic styles
+│   ├── ReaderSettings.swift       Theme, font, margins (UserDefaults)
+│   ├── RecentFile.swift           SwiftData model + bookmark
+│   └── SettingsView.swift         Settings sheet (reader / editor)
 ├── MarkedTests/
 └── MarkedUITests/
 ```
@@ -44,8 +48,8 @@ Marked/
 ## Requirements
 
 - Xcode 26 or later
-- iOS 26 or later
-- Swift 5.9+
+- iOS 26 or later (the project's deployment target is iOS 26.0)
+- Swift 5 language mode (built with the Xcode 26 toolchain)
 
 ## Dependencies
 
@@ -79,3 +83,7 @@ Jose Antonio Lopez — [@jalopezsuarez](https://github.com/jalopezsuarez) · `ja
 ## License
 
 [MIT](LICENSE) © 2026 Jose Antonio Lopez.
+
+---
+
+Made with ♥ by [Jose Antonio Lopez](https://github.com/jalopezsuarez).
