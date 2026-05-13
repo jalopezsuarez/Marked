@@ -166,6 +166,7 @@ nav.site-nav a:hover { color: var(--ink); }
 }
 
 .app-store-badge__logo {
+    display: block;
     width: 22px;
     height: 28px;
     flex: none;
