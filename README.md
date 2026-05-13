@@ -70,7 +70,7 @@ Resolved automatically through Swift Package Manager — no manual setup require
 
 ## Privacy
 
-Marked runs entirely on your device. No servers, no data collection, no network connections. The full policy is published at [jalopezsuarez.github.io/Marked/privacy.html](https://jalopezsuarez.github.io/Marked/privacy.html) (source: [`docs/privacy.md`](docs/privacy.md)); `Marked/Marked/PrivacyInfo.xcprivacy` carries the technical declaration.
+Marked runs entirely on your device. No servers, no data collection, no network connections. The full policy is published at [jalopezsuarez.github.io/Marked/privacy.html](https://jalopezsuarez.github.io/Marked/privacy.html); `Marked/Marked/PrivacyInfo.xcprivacy` carries the technical declaration.
 
 ## Author
 
@@ -78,4 +78,4 @@ Jose Antonio Lopez — [@jalopezsuarez](https://github.com/jalopezsuarez) · `ja
 
 ## License
 
-[MIT](LICENSE) © 2026 Vemovi.
+[MIT](LICENSE) © 2026 Jose Antonio Lopez.
